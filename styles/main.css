@@ -18,4 +18,75 @@ a {
   margin: 0 auto;
   padding: 0 16px;
   box-sizing: border-box;
+}
+
+.header {
+  margin-top: 50px;
+}
+.header button {
+  outline: none;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__top ul {
+  display: flex;
+  gap: 5px;
+}
+.header__top ul a {
+  padding: 10px;
+  color: #263238;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.header__btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #E5E5E5;
+  color: black;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+.header__main {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__main-left h1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+}
+.header__main-left p {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #8F95A5;
+}
+.header__main button {
+  border: none;
+  margin-top: 33px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #263238;
+  color: white;
+  border-radius: 5px;
+  padding-top: 22px;
+  padding-right: 70px;
+  padding-bottom: 22px;
+  padding-left: 70px;
+}
+.header__main .lampa {
+  position: absolute;
+  top: 250px;
+  left: 400px;
 }/*# sourceMappingURL=main.css.map */
