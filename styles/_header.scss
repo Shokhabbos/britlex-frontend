@@ -1,0 +1,62 @@
+// Start Header
+.header{
+    button{
+        outline: none;
+    }
+    margin-top: 50px;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            display: flex;
+            gap: 5px;
+            a{
+                padding: 10px;
+                color: $primary-color;
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 500;
+            }
+        }
+    }
+    &__btn{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+      @include buttonMixin(#E5E5E5, black, 5px, 10px, 50px, 10px, 50px)
+    }
+    &__main{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-left{
+            h1{
+                font-weight: 600;
+                font-size: 64px;
+                line-height: 80px;
+            }
+            p{
+                margin-top: 40px;
+                font-size: 20px;
+                font-weight: 400;
+                color: $secondary-color;
+            }
+        }
+        button{
+            border: none;
+            margin-top: 33px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            @include buttonMixin($primary-color, white, 5px, 22px, 70px, 22px, 70px)
+        }
+        .lampa{
+            position: absolute;
+            top: 250px;
+            left: 400px;
+        }
+    }
+}
+// End Header
