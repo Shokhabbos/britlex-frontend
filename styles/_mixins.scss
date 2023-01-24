@@ -1,0 +1,10 @@
+@mixin buttonMixin ($bgColor, $color: white, $borderRadius: 5px, $paddingTop, $paddingRight, $paddingBottom, $paddingLeft ) {
+    background-color: $bgColor;
+    color: $color;
+    border-radius: $borderRadius;
+    padding-top: $paddingTop;
+    padding-right: $paddingRight;
+    padding-bottom: $paddingBottom;
+    padding-left: $paddingLeft;
+
+}
