@@ -129,7 +129,8 @@ menu, section {
 .container .section {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 .container .section .section_box {
   margin-right: 19px;

@@ -2,19 +2,24 @@
   .section_h2 {
     text-align: center;
   }
+
   .section {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
     .section_box {
       margin-right: 19px;
-      .section_span-text-1{
+
+      .section_span-text-1 {
         font-style: normal;
         line-height: 15px;
 
         color: #8f95a5;
         margin-bottom: 70px;
       }
+
       .section__h3 {
         font-style: normal;
         font-size: 20px;
@@ -24,6 +29,7 @@
         margin-top: 33px;
         margin-bottom: 26px;
       }
+
       .section__h3_2 {
         font-style: normal;
         font-size: 20px;
@@ -33,6 +39,7 @@
         margin-top: 65px;
         margin-bottom: 26px;
       }
+
       .section__h3_3 {
         font-style: normal;
         font-size: 20px;
@@ -42,30 +49,35 @@
         margin-top: 30px;
         margin-bottom: 25px;
       }
+
       .section_span-text {
         font-style: normal;
         line-height: 15px;
 
         color: #8f95a5;
       }
-      .section_span-text-1{
+
+      .section_span-text-1 {
         font-style: normal;
         line-height: 15px;
 
         color: #8f95a5;
       }
+
       .section_btn {
         display: block;
         background: #eeeeee;
         border-radius: 5px;
         border: none;
         margin-top: 30px;
+
         .section_button-span {
           display: flex;
           align-items: center;
           justify-content: center;
           padding: 7px 11px;
-          .section__text{
+
+          .section__text {
             font-style: normal;
             font-size: 10px;
             line-height: 27px;
@@ -73,6 +85,7 @@
 
             color: #546269;
           }
+
           .section_span-black {
             font-style: normal;
             font-size: 15px;
@@ -84,17 +97,20 @@
           }
         }
       }
+
       .section_btn_2 {
         display: block;
         background: #eeeeee;
         border-radius: 5px;
         border: none;
         margin-top: 53px;
+
         .section_button-span {
           display: flex;
           align-items: center;
           justify-content: center;
           padding: 7px 11px;
+
           .section_span-black {
             font-style: normal;
             font-size: 15px;
@@ -115,17 +131,20 @@
           }
         }
       }
+
       .section_btn_3 {
         display: block;
         background: #eeeeee;
         border-radius: 5px;
         border: none;
         margin-top: 60px;
+
         .section_button-span {
           display: flex;
           align-items: center;
           justify-content: center;
           padding: 7px 11px;
+
           .section_span-black {
             font-style: normal;
             font-size: 15px;
