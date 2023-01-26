@@ -38,6 +38,7 @@
                 line-height: 80px;
             }
             p{
+                width: 450px;
                 margin-top: 40px;
                 font-size: 20px;
                 font-weight: 400;
@@ -54,9 +55,168 @@
         }
         .lampa{
             position: absolute;
-            top: 250px;
-            left: 400px;
+            top: 220px;
+            left: 360px;
+        }
+        &-right{
+            img{
+                width: auto;
+            }
         }
     }
 }
+
+// Start Media=992
+@media (max-width:992px){
+    .header{
+        .container{
+            width: 960px;
+        }
+        &__top{
+            &-logo{
+                img{
+                    width: 89px;
+                    height: 49px;
+                }
+            }
+            nav{
+                a{
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+            button{
+                font-size: 18px;
+                line-height: 27px;
+                @include buttonMixin(#E5E5E5, black, 5px, 10px, 40px, 10px, 40px)
+            }
+        }
+        &__main{
+            &-left{
+                h1{
+                    font-size: 43px;
+                    line-height: 64px;
+                }
+                p{
+                    width: 335px;
+                    font-size: 16px;
+                }
+                button{
+                    font-size: 14px;
+                    line-height: 18px;
+                    @include buttonMixin($primary-color, white, 5px, 15px, 60px, 15px, 60px)
+                }
+            }
+            &-right{
+                img{
+                    width: 460px;
+                    height: 460px;
+                }
+            }
+            .lampa{
+                width: 70px;
+                top: 150px;
+                left: 250px;
+            }
+        }
+    }
+}
+// End Media=992
+
+// Start Media=767
+@media (max-width:767px){
+    .header{
+        .container{
+            width: 720px;
+        }
+        &__top{
+            nav{
+                width: 30px;
+                height: 17px;
+                background-image: url(../images/icons/nav.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                ul{
+                    display: none;
+                }
+            }
+            button{
+                display: none;
+            }
+        }
+        &__main{
+            &-left{
+                h1{
+                    font-size: 36px;
+                    line-height: 45px;
+                }
+                p{
+                    width: 280px;
+                    font-size: 13px;
+                }
+                button{
+                    font-size: 12px;
+                    line-height: 16px;
+                    @include buttonMixin($primary-color, white, 5px, 12px, 55px, 12px, 55px)
+                }
+            }
+            &-right{
+                img{
+                    width: 352px;
+                    height: 352px;
+                }
+            }
+            .lampa{
+                width: 60px;
+                top: 100px;
+                left: 220px;
+            }
+        }
+    }
+}
+// End Media=767
+
+// Start Media=575
+@media (max-width:575px){
+    .header{
+        .container{
+            width: 540px;
+        }
+        &__main{
+            display: grid;
+            grid-template-columns: auto;
+            &-left{
+                grid-row: 2/3;
+                text-align: center;
+                h1{
+                    font-size: 34px;
+                    line-height: 45px;
+                }
+                p{
+                    width: 400px;
+                    margin: 0 auto;
+                    margin-top: 26px;
+                }
+                button{
+                    font-size: 12px;
+                    line-height: 16px;
+                    @include buttonMixin($primary-color, white, 5px, 12px, 55px, 12px, 55px)
+                }
+            }
+            &-right{
+                margin: 0 auto;
+                img{
+                    width: 424px;
+                    height: 424px;
+                }
+            }
+            .lampa{
+                display: none;
+            }
+        }
+    }
+}
+// End Media=575
+
 // End Header
