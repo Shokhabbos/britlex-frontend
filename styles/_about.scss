@@ -24,3 +24,35 @@
 .text_list{
   color: $primary-color;
 }
+@media screen and  (min-width: 320px) {
+  .about__title {
+    text-align: center;
+  }
+  .about_holder {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .footer_numbers {
+    display: flex;
+    row-gap: 65px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+}
+@media screen and (min-width:576px) {
+  .footer_numbers {
+    display: flex;
+    row-gap: 65px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+}
+@media screen and (min-width:768px) {
+  .about_holder {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+}
