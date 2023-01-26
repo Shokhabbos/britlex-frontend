@@ -26,7 +26,6 @@ a {
 .container .section {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .container .section .section_box {
   margin-right: 19px;
@@ -154,4 +153,23 @@ a {
   line-height: 27px;
   /* identical to box height */
   color: #546269;
+}
+
+@media screen and (min-width: 320px) {
+  .section {
+    flex-direction: column;
+  }
+  .section_box {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 350px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=main.css.map */
