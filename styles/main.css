@@ -155,7 +155,7 @@ a {
   color: #546269;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .section {
     flex-direction: column;
   }
@@ -163,10 +163,11 @@ a {
     display: block;
     box-sizing: border-box;
     padding: 10px;
-    width: 350px;
+    max-width: 300px;
+    width: 100%;
   }
 }
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 768px) {
   .section {
     flex-direction: row;
     flex-wrap: wrap;
