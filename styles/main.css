@@ -116,4 +116,138 @@ a {
   font-size: 16px;
   line-height: 24px;
   padding: 15px 7px;
+.container .section_h2 {
+  text-align: center;
+}
+.container .section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .section .section_box {
+  margin-right: 19px;
+}
+.container .section .section_box .section_span-text-1 {
+  font-style: normal;
+  line-height: 15px;
+  color: #8f95a5;
+  margin-bottom: 70px;
+}
+.container .section .section_box .section__h3 {
+  font-style: normal;
+  font-size: 20px;
+  /* identical to box height, or 160% */
+  color: #263238;
+  margin-top: 33px;
+  margin-bottom: 26px;
+}
+.container .section .section_box .section__h3_2 {
+  font-style: normal;
+  font-size: 20px;
+  /* identical to box height, or 160% */
+  color: #263238;
+  margin-top: 65px;
+  margin-bottom: 26px;
+}
+.container .section .section_box .section__h3_3 {
+  font-style: normal;
+  font-size: 20px;
+  /* identical to box height, or 160% */
+  color: #263238;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.container .section .section_box .section_span-text {
+  font-style: normal;
+  line-height: 15px;
+  color: #8f95a5;
+}
+.container .section .section_box .section_span-text-1 {
+  font-style: normal;
+  line-height: 15px;
+  color: #8f95a5;
+}
+.container .section .section_box .section_btn {
+  display: block;
+  background: #eeeeee;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+}
+.container .section .section_box .section_btn .section_button-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 11px;
+}
+.container .section .section_box .section_btn .section_button-span .section__text {
+  font-style: normal;
+  font-size: 10px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #546269;
+}
+.container .section .section_box .section_btn .section_button-span .section_span-black {
+  font-style: normal;
+  font-size: 15px;
+  line-height: 45px;
+  /* identical to box height */
+  padding-right: 8px;
+  color: #263238;
+}
+.container .section .section_box .section_btn_2 {
+  display: block;
+  background: #eeeeee;
+  border-radius: 5px;
+  border: none;
+  margin-top: 53px;
+}
+.container .section .section_box .section_btn_2 .section_button-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 11px;
+}
+.container .section .section_box .section_btn_2 .section_button-span .section_span-black {
+  font-style: normal;
+  font-size: 15px;
+  line-height: 45px;
+  /* identical to box height */
+  padding-right: 8px;
+  color: #263238;
+}
+.container .section .section_box .section_btn_2 .section_button-span .section__text {
+  font-style: normal;
+  font-size: 10px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #546269;
+}
+.container .section .section_box .section_btn_3 {
+  display: block;
+  background: #eeeeee;
+  border-radius: 5px;
+  border: none;
+  margin-top: 60px;
+}
+.container .section .section_box .section_btn_3 .section_button-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 11px;
+}
+.container .section .section_box .section_btn_3 .section_button-span .section_span-black {
+  font-style: normal;
+  font-size: 15px;
+  line-height: 45px;
+  /* identical to box height */
+  padding-right: 8px;
+  color: #263238;
+}
+.container .section .section_box .section_btn_3 .section_button-span .section__text {
+  font-style: normal;
+  font-size: 10px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #546269;
 }/*# sourceMappingURL=main.css.map */
