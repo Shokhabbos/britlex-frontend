@@ -540,4 +540,33 @@ menu, section {
   .skills__grid-section-box {
     width: 50%;
   }
+}
+.footer_numbers li {
+  font-size: 20px;
+  color: #263238;
+}
+
+.container_text {
+  color: #8f95a5;
+}
+
+.about_holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_numbers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.number_style {
+  font-weight: bolder;
+}
+
+.text_list {
+  color: #263238;
 }/*# sourceMappingURL=main.css.map */

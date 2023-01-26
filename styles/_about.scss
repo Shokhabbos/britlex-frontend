@@ -1,0 +1,25 @@
+
+.footer_numbers li {
+  font-size: 20px;
+  color: $primary-color;
+}
+.container_text {
+  color: #8f95a5;
+}
+.about_holder{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_numbers{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  font-size: 20px;
+}
+.number_style{
+  font-weight: bolder;
+}
+.text_list{
+  color: $primary-color;
+}
