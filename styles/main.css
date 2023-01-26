@@ -275,10 +275,11 @@ menu, section {
 .container .section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 40px;
 }
 .container .section .section_box {
+  margin-right: 19px;
+  justify-content: space-between;
+  margin-bottom: 40px;
   margin-right: 19px;
 }
 .container .section .section_box .section_span-text-1 {
@@ -404,6 +405,25 @@ menu, section {
   line-height: 27px;
   /* identical to box height */
   color: #546269;
+}
+@media screen and (max-width: 320px) {
+  .container .section {
+    flex-direction: column;
+  }
+  .container .section_box {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 300px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container .section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .skills__title {

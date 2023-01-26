@@ -6,10 +6,12 @@
   .section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 40px;
-
+    // justify-content: space-between;
     .section_box {
+      margin-right: 19px;
+      justify-content: space-between;
+      margin-bottom: 40px;
+
       margin-right: 19px;
 
       .section_span-text-1 {
@@ -58,6 +60,7 @@
       }
 
       .section_span-text-1 {
+
         font-style: normal;
         line-height: 15px;
 
@@ -165,6 +168,26 @@
           }
         }
       }
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .section {
+      flex-direction: column;
+    }
+    .section_box {
+      display: block;
+      box-sizing: border-box;
+      padding: 10px;
+      max-width: 300px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .section {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }
